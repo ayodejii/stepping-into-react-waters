@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 class Counter extends Component {
     state = { 
         count: 1,
-        imageUrl: "~/ESS.png"
+        imageUrl: "~/ESS.png",
+        animals: [
+            "dog", "cat", "goat"
+        ]
      };
 
      styles = {
@@ -17,6 +20,9 @@ class Counter extends Component {
             <img src={this.state.imageUrl} alt=""/>
             <span className={this.getBadgeClass()}>{this.formatCount()}</span>
             <button style={this.styles} className="btn btn-secondary btn-sm">Increment</button>
+            <ul>
+        {this.state.animals.map(am => <li key={am}>{am}</li>)}
+            </ul>
         </>
             
         );
