@@ -3,40 +3,28 @@ class Counter extends Component {
     state = { 
         count: 1,
         imageUrl: "~/ESS.png",
-        animals: [
-            "dog", "cat", "goat"
-        ]
+        animals: []
      };
 
-     styles = {
-        fontSize: 10,
-        fontWeight: 'bold'
-     };
+     renderAnimals(){
+         if (this.state.animals.length > 0) {
+             return (
+             <ul>
+                {this.state.animals.map(am => <li key={am}>{am}</li>)}
+            </ul>
+            )
+         }
+     }
 
     render() { 
 
         return (
         <>
-            <img src={this.state.imageUrl} alt=""/>
-            <span className={this.getBadgeClass()}>{this.formatCount()}</span>
-            <button style={this.styles} className="btn btn-secondary btn-sm">Increment</button>
-            <ul>
-        {this.state.animals.map(am => <li key={am}>{am}</li>)}
-            </ul>
+            {this.state.animals.length === 0 && <p>There are no animals in the freaking zoo!</p>}
+            {this.renderAnimals()}
         </>
             
         );
-    }
-
-    getBadgeClass() {
-        let classes = "badge m-2 badge-";
-        classes += this.state.count === 0 ? "warning" : "primary";
-        return classes;
-    }
-
-    formatCount(){
-        const {count} = this.state;
-        return count === 0 ? "Zero" : count;
     }
 }
 export default Counter;
