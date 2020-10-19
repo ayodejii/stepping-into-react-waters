@@ -33,7 +33,10 @@ class Counter extends Component {
                     Increment
                 </button>
                 <button
-                    onClick={() => console.log(this.props)}
+                    onClick={() => {
+                        console.log(this.props);
+                        debugger;
+                    }}
                     className="btn btn-danger btn-sm m-2">
                     Delete
                 </button>
