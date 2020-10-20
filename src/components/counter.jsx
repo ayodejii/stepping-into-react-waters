@@ -1,16 +1,6 @@
 import React, { Component } from 'react';
+
 class Counter extends Component {
-    // state = {
-    //     id: this.props.id, 
-    //     value: this.props.counter.value,
-    //     imageUrl: "~/ESS.png",
-    //     animals: [
-    //         "dog", "cat", "goat"
-    //     ]
-    //  };
-
-     //handleIncrement = () => this.setState({value: this.state.value + 1})
-
      styles = {
         fontSize: 10,
         fontWeight: 'bold'
@@ -41,7 +31,7 @@ class Counter extends Component {
         return classes;
     }
 
-    formatCount(){
+    formatCount() {
         const {value} = this.props.counter;
         return value === 0 ? "Zero" : value;
     }

@@ -41,10 +41,23 @@ function App() {
     setState({counter})
  }
 
+ const totalNav = (val) => {
+    let vtotal = 0
+    val.forEach(v => {
+      vtotal = vtotal + v.value;
+    })
+    return vtotal;
+ }
+
   return (
     <>
-    <NavBar />
-    <main className="container">
+    <NavBar 
+    navValue={state.counter.filter(x => x.value > 0).length}
+    totalVal={totalNav(state.counter)}
+    />
+
+    <main className="container"
+    style={{marginLeft:"10px"}}>
     <Counters
     onReset={handleReset}
     onIncrement={handleIncrement}
@@ -55,5 +68,5 @@ function App() {
     </>
   );
 }
-
+//state.counter.reduce((n, {value}) => n + value, 0)
 export default App;
