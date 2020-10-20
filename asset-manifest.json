@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.5f361e03.chunk.css",
-    "main.js": "/my-app/static/js/main.1875b9bd.chunk.js",
-    "main.js.map": "/my-app/static/js/main.1875b9bd.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.58a6d01e.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.58a6d01e.js.map",
-    "static/css/2.f65acde2.chunk.css": "/my-app/static/css/2.f65acde2.chunk.css",
-    "static/js/2.3722360a.chunk.js": "/my-app/static/js/2.3722360a.chunk.js",
-    "static/js/2.3722360a.chunk.js.map": "/my-app/static/js/2.3722360a.chunk.js.map",
-    "index.html": "/my-app/index.html",
-    "precache-manifest.08c99c37772197e7ba694c7e73dbcfa9.js": "/my-app/precache-manifest.08c99c37772197e7ba694c7e73dbcfa9.js",
-    "service-worker.js": "/my-app/service-worker.js",
-    "static/css/2.f65acde2.chunk.css.map": "/my-app/static/css/2.f65acde2.chunk.css.map",
-    "static/css/main.5f361e03.chunk.css.map": "/my-app/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.3722360a.chunk.js.LICENSE.txt": "/my-app/static/js/2.3722360a.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/my-app/static/media/logo.5d5d9eef.svg"
+    "main.css": "/stepping-into-react-waters/static/css/main.5f361e03.chunk.css",
+    "main.js": "/stepping-into-react-waters/static/js/main.47e3d299.chunk.js",
+    "main.js.map": "/stepping-into-react-waters/static/js/main.47e3d299.chunk.js.map",
+    "runtime-main.js": "/stepping-into-react-waters/static/js/runtime-main.dd140dcc.js",
+    "runtime-main.js.map": "/stepping-into-react-waters/static/js/runtime-main.dd140dcc.js.map",
+    "static/css/2.f65acde2.chunk.css": "/stepping-into-react-waters/static/css/2.f65acde2.chunk.css",
+    "static/js/2.3722360a.chunk.js": "/stepping-into-react-waters/static/js/2.3722360a.chunk.js",
+    "static/js/2.3722360a.chunk.js.map": "/stepping-into-react-waters/static/js/2.3722360a.chunk.js.map",
+    "index.html": "/stepping-into-react-waters/index.html",
+    "precache-manifest.63917346e373874009f114763d4e7b5d.js": "/stepping-into-react-waters/precache-manifest.63917346e373874009f114763d4e7b5d.js",
+    "service-worker.js": "/stepping-into-react-waters/service-worker.js",
+    "static/css/2.f65acde2.chunk.css.map": "/stepping-into-react-waters/static/css/2.f65acde2.chunk.css.map",
+    "static/css/main.5f361e03.chunk.css.map": "/stepping-into-react-waters/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.3722360a.chunk.js.LICENSE.txt": "/stepping-into-react-waters/static/js/2.3722360a.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/stepping-into-react-waters/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.58a6d01e.js",
+    "static/js/runtime-main.dd140dcc.js",
     "static/css/2.f65acde2.chunk.css",
     "static/js/2.3722360a.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.1875b9bd.chunk.js"
+    "static/js/main.47e3d299.chunk.js"
   ]
 }
