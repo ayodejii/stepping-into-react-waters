@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 const NavBar = (props) => {
-
+    const {navValue, totalVal} = props;
     const formatTotal = val => {
         return val === 0 ? "non selected" : val;
     }
@@ -12,12 +12,12 @@ const NavBar = (props) => {
             <a className="navbar-brand" href="#">
                 No of Rows Clicked 
                 <span className="badge m-2 badge-secondary">
-                    {props.navValue}
+                    {navValue}
                 </span>
                 <span style={{marginLeft:"100%"}}>
                     Total Number of Clicks: 
                     <span className="badge m-2 badge-info">
-                        {formatTotal(props.totalVal)}
+                        {formatTotal(totalVal)}
                     </span>
                 </span>
                 
